@@ -32,6 +32,7 @@
                         data: [63, 75, 24, 92]
                     }
                 ],
+                tooltip: {},
                 title: {
                     text: 'Quarterly Sales Results',
                     x: 'center',
@@ -39,7 +40,7 @@
                         fontSize: 24
                     }
                 },
-                color: ['#127ac2']
+                color: ['#00F']
             },
             chartOptionsLine: {
                 xAxis: {
@@ -61,6 +62,7 @@
                 yAxis: {
                     type: "value"
                 },
+                tooltip: {},
                 series: [
                     {
                         type: "line",
@@ -74,7 +76,7 @@
                         fontSize: 24
                     }
                 },
-                color: ["#127ac2"]
+                color: ["#00F"]
             },
             chartOptionsRadar : {
                 title: {
@@ -84,7 +86,7 @@
                         fontSize: 24
                     }
                 },
-                color: ["#127ac2"],
+                color: ["#00F"],
                 tooltip: {},
                 legend: {
                     bottom: 5,
