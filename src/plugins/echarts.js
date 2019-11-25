@@ -5,6 +5,7 @@ import 'echarts/lib/chart/line';
 import 'echarts/lib/chart/radar';
 import 'echarts/lib/component/title';
 import 'echarts/lib/component/legend';
+import 'echarts/lib/component/tooltip';
 
 
 Vue.component('chart', Echarts);

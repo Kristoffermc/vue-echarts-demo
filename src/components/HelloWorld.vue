@@ -88,7 +88,7 @@
                 tooltip: {},
                 legend: {
                     bottom: 5,
-                    data: ['Actual', 'Optimal'],
+                    data: ['Actual plant conditions', 'Optimal plant conditions'],
                     itemGap: 20,
                     textStyle: {
                         color: '#000000',
@@ -115,7 +115,7 @@
                 // The two different data inputs
                 // Data input 1
                 series: [{
-                    name: 'Optimal',
+                    name: 'Actual plant conditions',
                     type: 'radar',
                     itemStyle: {
                         normal: {
@@ -125,13 +125,13 @@
                     data : [
                         {
                             value : [4300, 10000, 20000, 29000],
-                            name : 'Optimal'
+                            name : 'Actual plant conditions'
                         }
                     ]
                 },
                     // Data input 2
                     {
-                        name: 'Actual',
+                        name: 'Optimal plant conditions',
                         type: 'radar',
                         itemStyle: {
                             normal: {
@@ -159,7 +159,7 @@
                             {
                                 //value : [5000, 14000, 28000, 31000],
                                 value : [6500, 16000, 30000, 38000],
-                                name : 'Actual'
+                                name : 'Optimal plant conditions'
                             }
                         ]
                     }]
