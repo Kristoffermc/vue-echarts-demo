@@ -42,6 +42,8 @@
                 },
                 color: ['#00F']
             },
+
+
             chartOptionsLine: {
                 xAxis: {
                     data: [
@@ -78,6 +80,8 @@
                 },
                 color: ["#00F"]
             },
+
+
             chartOptionsRadar : {
                 title: {
                     text: 'Basic Radar Chart',
@@ -168,8 +172,6 @@
             }
         })
     }
-
-
 </script>
 
 <style scoped>
